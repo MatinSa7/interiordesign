@@ -1,7 +1,15 @@
+import React from "react";
+import styled from "styled-components";
+import GlobalStyles from "./components/GlobalStyles";
+import Nav from "./components/Nav";
+import MainPage from "./pages/MainPage";
+
 function App() {
   return (
     <div className="App">
-      <h1>hello</h1>
+      <GlobalStyles />
+      <Nav />
+      <MainPage />
     </div>
   );
 }
